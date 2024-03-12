@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid black;
+    border-radius: 30px;
+    height: 50vh;
+    width: 50vh;
+    margin:auto;
+    margin-top: 90px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF7504;
+}
+
+/* Add styles for form labels */
+.form label {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+/* Add styles for form input fields */
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"],
+.form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Add styles for form submit button */
+.form input[type="submit"] {
+    background-color: #4CAF50;
+    border-radius: 2px solid black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Add hover effect for form submit button */
+.form input[type="submit"]:hover {
+    background-color: #45a049;
+}

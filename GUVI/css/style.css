@@ -1,0 +1,38 @@
+.main {
+    text-align: center;
+    margin: 50px 50px 50px 50px;
+    font-size:x-large;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: beige;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header {
+    margin:0;
+    padding: 0  ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+    font-size: 60px;
+    background-color: #DDAE7E;
+    color: #2a2d34;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding text shadow */
+    border-bottom: 1px solid black; /* Adding border bottom */
+    height: 100px;
+}
+.button {
+    size: 20px; /* This property is not valid for buttons, you may remove it */
+    border: 0.5px solid black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 30px;
+    background-color: green; /* Green background */
+    color: white; /* White text color */
+}
